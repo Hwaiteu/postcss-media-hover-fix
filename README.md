@@ -45,8 +45,8 @@ Output:
 
 ## Credits
 
-- Original plugin author: Saul Hardman <hello@iamsaul.co.uk>
-- Modified by: Hwaiteu (github.com/Hwaiteu)
+- Original plugin author: Saul Hardman <hello@iamsaul.co.uk> [github](https://github.com/saulhardman) [plugin](https://github.com/saulhardman/postcss-hover-media-feature)
+- Modified by: Hwaiteu [github](https://github.com/Hwaiteu)
 
 ## License
 
