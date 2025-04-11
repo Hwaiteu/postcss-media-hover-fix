@@ -1,0 +1,55 @@
+{
+  "name": "postcss-media-hover-fix",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to fix hover media queries for better touch device support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "css",
+    "hover",
+    "media-query",
+    "touch"
+  ],
+  "author": "Hwaiteu <github.com/Hwaiteu>",
+  "contributors": [
+    "Saul Hardman <hello@iamsaul.co.uk>"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hwaiteu/postcss-media-hover-fix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hwaiteu/postcss-media-hover-fix/issues"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.0",
+    "jest": "29.7.0",
+    "postcss": "8.5.3",
+    "postcss-selector-parser": "^7.1.0",
+    "postcss-tape": "6.0.1",
+    "ts-jest": "^29.3.1",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
