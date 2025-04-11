@@ -108,4 +108,4 @@ const plugin: PluginCreator<PluginOptions> = () => {
 
 plugin.postcss = true;
 
-export default plugin;
+export = plugin;
