@@ -1,6 +1,6 @@
 {
   "name": "postcss-media-hover-fix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostCSS plugin to fix hover media queries for better touch device support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
