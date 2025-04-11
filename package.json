@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hwaiteu/postcss-media-hover-fix.git"
+    "url": "git+https://github.com/Hwaiteu/postcss-media-hover-fix.git"
   },
   "bugs": {
     "url": "https://github.com/Hwaiteu/postcss-media-hover-fix/issues"
